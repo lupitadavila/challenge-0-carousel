@@ -78,3 +78,10 @@ main blockquote:before {
 main blockquote p {
   display: inline;
 }
+
+.carousel-item{
+  display:none;
+}
+.active.carousel-item{
+  display: block;
+}
