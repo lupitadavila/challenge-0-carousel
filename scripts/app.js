@@ -1,7 +1,6 @@
 // remove active class from current image and set to next
 function nextImage(){
-  var images = document.getElementsByClassName("carousel")[0].getElementsByClassName('carousel-item');
-  console.log(images);
+  var images = document.getElementsByClassName('carousel')[0].getElementsByClassName('carousel-item');
   var nextActive = 1;
   for(var i = 0; i < images.length; i++){
     if(classExists(images[i],"active")){
